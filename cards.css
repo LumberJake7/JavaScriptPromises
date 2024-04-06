@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  background-color: #007f00;
+}
+#cardArea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  position: relative;
+}
+#btn {
+  margin-bottom: 20px;
+}
+img {
+  position: absolute;
+  transition: transform 0.3s ease;
+}
